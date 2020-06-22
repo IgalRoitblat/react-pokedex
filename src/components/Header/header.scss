@@ -1,0 +1,13 @@
+@import "../../styles/colors";
+
+.header {
+    background-color: $very-light-blue;
+    height: 4rem;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+
+    .search-bar {
+        margin-left: 8px;
+    }
+}

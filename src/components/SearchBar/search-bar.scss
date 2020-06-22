@@ -1,0 +1,21 @@
+@import "../../styles/colors";
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: none;
+        border: 1px solid $dark-blue;
+        outline: none;
+
+        &:hover, &:focus {
+            border-color: $very-dark-blue;
+        }
+    }
+}

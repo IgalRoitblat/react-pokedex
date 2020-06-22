@@ -1,0 +1,32 @@
+@import "../../styles/colors";
+
+.action-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    &.dark-blue {
+        background-color: $dark-blue;
+
+        &:hover {
+            background-color: $very-dark-blue;
+        }
+    }
+
+    &.red {
+        background-color: $red;
+
+        &:hover {
+            background-color: darken($red, 20%);
+        }
+    }
+}
